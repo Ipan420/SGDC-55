@@ -357,7 +357,7 @@ ${readMore}
 *┃                      ${bname}*
 *┗━━━━━━━━━━━━━━━━━━┛*
 
- _Encoded by @${own.split("@")[0]}_
+
 
   ${desc} *${bname}@^${vers}*
 `.trim()
