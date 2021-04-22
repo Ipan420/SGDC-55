@@ -1,11 +1,11 @@
 let handler = async m => m.reply(`
 ╭─────「 Donasi • SGDC-BOT 」
-│ • *Pulsa Telkomsel [082252655313]*
-│ • *Saldo Dana [082252655313]*
-│ • *Saweria [https://saweria.co/AFD11]*
-│ • *Nyawer [https://nyawer.co/SGDC]*
-│ • *Contact: wa.me/622252655313*
+│ • *Pulsa Telkomsel [082286818715]*
+│ • *Saldo Dana [082286818715]*
+│ • *Contact: wa.me/6282286818715*
 ╰────────────────────────
+
+ • *Contact: wa.me/6282286818715*
 `.trim())
 
 handler.command = /^dona(te|si)$/i
