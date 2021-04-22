@@ -1,6 +1,6 @@
 let handler = function (m) {
-  this.sendContact(m.chat, '6282252655313', ' ᴍ ᴀꜰᴅʜᴀɴ || @dhans11__', m)
-m.reply('wa.me/6282252655313')
+  this.sendContact(m.chat, '6282286818715', ' IPAN-BOT || @Ipan4200', m)
+m.reply('wa.me/6282286818715')
 }
 
 handler.command = /^(owner|creator)$/i
