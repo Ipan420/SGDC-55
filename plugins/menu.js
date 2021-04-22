@@ -44,7 +44,7 @@ let handler  = async (m, { conn, args, usedPrefix: _p }) => {
     let uptime = clockString(_uptime)
     //let users = (await conn.groupMetadata(m.chat)).participants.map(u => u.jid)
     let reg = Object.values(global.DATABASE._data.users).filter(user => user.registered == false).length
-    let own = '6282252655313@s.whatsapp.net'
+    let own = '6282286818715@s.whatsapp.net'
     let cown = '6283129011845@s.whatsapp.net'
     let mmk = m.sender
     //let poto = 'src/SGDC_BOT.jpg'
