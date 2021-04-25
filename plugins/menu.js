@@ -17,10 +17,10 @@ let handler  = async (m, { conn, args, usedPrefix: _p }) => {
     let dsci = package.description
     let kntl = require("../src/kntl.json");
     let apikey = (kntl.xinzbot)
-    let ree = await axios.get(`https://xinzbot-api.herokuapp.com/api/ucapan?apikey=${apikey}&timeZone=Asia/Jakarta`)
-    let cpn = ree.data.result
-    let res = await axios.get(`https://xinzbot-api.herokuapp.com/api/hitungmundur?apikey=${apikey}&tanggal=13&bulan=5`)
-    let rmd = res.data.result
+    //let ree = await axios.get(`https://xinzbot-api.herokuapp.com/api/ucapan?apikey=${apikey}&timeZone=Asia/Jakarta`)
+    //let cpn = ree.data.result
+    //let res = await axios.get(`https://xinzbot-api.herokuapp.com/api/hitungmundur?apikey=${apikey}&tanggal=13&bulan=5`)
+    //let rmd = res.data.result
     let gc = 'https://tinyurl.com/ygu7vxny'
     let name = conn.getName(m.sender)
     let desc = 'Powered by'
@@ -50,7 +50,7 @@ let handler  = async (m, { conn, args, usedPrefix: _p }) => {
     //let poto = 'src/SGDC_BOT.jpg'
     let mn = `
 *━━━━━━━━━━━━━━━━━━━━*
-_Hai, Selamat ${cpn} || (Masukkan Apikey) Kak @${mmk.split("@")[0]}_
+_Hai, Selamat || (Masukkan Apikey) Kak @${mmk.split("@")[0]}_
 
 *Note:*
 _Script ini hanya polosan, anda perlu memasukkan parameter apikey  agar fitur dapat berfungsi!_
@@ -58,7 +58,7 @@ _Script ini hanya polosan, anda perlu memasukkan parameter apikey  agar fitur da
 ❍ *Total Pengguna ${bname}* ❍
 ❏ ~> ${reg} User
 ❍ *Hitung Mundur Menuju Idul Fitri 1442 H* ❍
-❏ ~> ${rmd} || Masukkan Apikey
+❏ ~> || Masukkan Apikey
 ❍ *Group Chat ${bname}* ❍
 ❏ ~> ${gc}
 ❍ *Performa ${bname} Saat Ini* ❍
