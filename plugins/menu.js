@@ -50,7 +50,7 @@ let handler  = async (m, { conn, args, usedPrefix: _p }) => {
     //let poto = 'src/SGDC_BOT.jpg'
     let mn = `
 *━━━━━━━━━━━━━━━━━━━━*
-_Hai, Selamat || (Masukkan Apikey) Kak @${mmk.split("@")[0]}_
+_Hai,Kak @${mmk.split("@")[0]}_
 
 *Note:*
 _Script ini hanya polosan, anda perlu memasukkan parameter apikey  agar fitur dapat berfungsi!_
