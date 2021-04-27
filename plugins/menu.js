@@ -52,8 +52,8 @@ let handler  = async (m, { conn, args, usedPrefix: _p }) => {
 *━━━━━━━━━━━━━━━━━━━━*
 _Hai,Kak @${mmk.split("@")[0]}_
 
-*Owner Ipan Gans:v*
- Wa.me/6282286818715
+☞*Owner Ipan Gans:v*
+☞Wa.me/6282286818715
 *╭══════════════════╮*
 ❍ *Total Pengguna ${bname}* ❍
 ❏ ~> ${reg} User
