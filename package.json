@@ -1,5 +1,5 @@
 {
-  "name": "SGDC-BOT",
+  "name": "IP-BOT",
   "version": "1.5.5",
   "description": "SGDC-TEAM @SobatGretong",
   "depecrated": false,
@@ -22,7 +22,7 @@
   ],
   "homepage": "https://github.com/Afdhan/SGDC-BOT",
   "author": {
-    "name": "M AFDHAN"
+    "name": "M.AFDHAN"
   },
   "repository": {
     "url": "https://github.com/Afdhan/SGDC-BOT.git"
