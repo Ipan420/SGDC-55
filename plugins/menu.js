@@ -45,7 +45,7 @@ let handler  = async (m, { conn, args, usedPrefix: _p }) => {
     //let users = (await conn.groupMetadata(m.chat)).participants.map(u => u.jid)
     let reg = Object.values(global.DATABASE._data.users).filter(user => user.registered == false).length
     let own = '6282286818715@s.whatsapp.net'
-    let cown = '6283129011845@s.whatsapp.net'
+    let cown = '6282286818715@s.whatsapp.net'
     let mmk = m.sender
     //let poto = 'src/SGDC_BOT.jpg'
     let mn = `
@@ -55,15 +55,19 @@ _Hai,Kak @${mmk.split("@")[0]}_
 *☞Owner Ipan Gans:v*
 *☞Wa.me/6282286818715*
 *╭══════════════════╮*
+
 ❍ *Total Pengguna ${bname}* ❍
-❏ ~> ${reg} User
-❍ *Hitung Mundur Menuju Idul Fitri 1442 H* ❍
-❏ ~> || Masukkan Apikey
-❍ *Group Chat ${bname}* ❍
-❏ ~> ${gc}
+
+❏ ~> ${reg} User❍
+
 ❍ *Performa ${bname} Saat Ini* ❍
-❏ ~> ${ping}
+
+❏ ~> ${ping}❍
+
 *╰══════════════════╯*
+
+
+
 *━━━━━━━━━━━━━━━━━━━━*
 ${readMore}
 *┏━━━━━━━━━━━━━━━━━━┓*
