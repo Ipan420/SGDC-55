@@ -1,5 +1,5 @@
 let handler = function (m) {
-  this.sendContact(m.chat, '6282286818715', ' IPAN-BOT || @Ipan4200', m)
+  this.sendContact(m.chat, '6282286818715', ' IPAN-GANS:V || @Ipan4200', m)
 m.reply('wa.me/6282286818715')
 }
 
