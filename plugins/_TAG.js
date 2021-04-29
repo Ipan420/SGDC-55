@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text }) => {
   let users = (await conn.groupMetadata(m.chat)).participants.map(u => u.jid)
-  let mem = `*╭════[  SGDC-BOT  ]════╮*\n*┏═══════════════*\n`
+  let mem = `*╭════[  IP-BOT  ]════╮*\n*┏═══════════════*\n`
   for (let i = 0; i < users.length; i++) {
       mem += `*┣►* @${users[i].split("@")[0]}\n`
      }
