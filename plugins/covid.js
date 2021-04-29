@@ -10,7 +10,7 @@ let handler = async(m, { conn, text }) => {
 *Meninggal:* _${res.data.result.meninggal}_
 *Dirawat:* _${res.data.result.dalam_perawatan}_
 
-*SGDC-BOT*
+*IP-BOT*
 `.trim()
 conn.reply(m.chat, hasil, m)
     })
