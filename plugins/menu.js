@@ -53,15 +53,15 @@ let handler  = async (m, { conn, args, usedPrefix: _p }) => {
 _Hai,Kak @${mmk.split("@")[0]}_
 *━━━━━━━━━━━━━━━━━━━━*
 *☬ᴍʏ ᴏᴡɴᴇʀ ɪᴘᴀɴ ɢᴀɴs:ᴠ☬*
-*☞Wa.me/6282286818715*
+*Wa.me/6282286818715*
 *━━━━━━━━━━━━━━━━━━━━*
 *╭══════════════════╮*
 
-❍ *Total Pengguna ${bname}* ❍
+❍ *ᴛᴏᴛᴀʟ ᴘᴇɴɢɢᴜɴᴀ ${bname}* ❍
 
 ❏ ~> ${reg} User❍
 
-❍ *Performa ${bname} Saat Ini* ❍
+❍ *ᴘᴇʀғᴏʀᴍᴀ ${bname} sᴀᴀᴛ ɪɴɪ* ❍
 
 ❏ ~> ${ping}❍
 
