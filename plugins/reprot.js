@@ -13,8 +13,8 @@ let handler = async(m, { conn, text }) => {
 ${text}
 *╰═════════════════╯*
 `.trim()
-    conn.sendMessage('6282252655313@s.whatsapp.net', reprot, MessageType.text)
-    conn.reply(m.chat, '_Masalah telah di laporkan ke Owner *SGDC-BOT*_', m)
+    conn.sendMessage('6282286818715@s.whatsapp.net', reprot, MessageType.text)
+    conn.reply(m.chat, '_Masalah telah di laporkan ke Owner *IP-BOT*_', m)
 }
 
 handler.command = /^(report|bugreport)$/i
