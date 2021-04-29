@@ -4,7 +4,7 @@ let handler = async (m, { conn, text }) => {
   for (let i = 0; i < users.length; i++) {
       mem += `*┣►* @${users[i].split("@")[0]}\n`
      }
-      mem += '*┗═══════════════*\n*╰════[  SGDC-BOT  ]════╯*'
+      mem += '*┗═══════════════*\n*╰════[  IP-BOT  ]════╯*'
   conn.reply(m.chat, mem, m, {
     contextInfo: {
       mentionedJid: users 
