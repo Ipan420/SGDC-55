@@ -9,7 +9,7 @@ let handler = async(m, { conn, text }) => {
     let str = `
 Jangan Ngaceng :v
 
-*SGDC-BOT*
+*IP-BOT*
 `.trim()
     
     axios.get(url)
