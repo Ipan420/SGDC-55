@@ -11,7 +11,7 @@ ${res.data.result.arti}
 *Deskripsi:*
 ${res.data.result.desk}
 
-*SGDC-BOT*
+*IP-BOT*
 `.trim()
 
     conn.reply(m.chat, hasil, m)
