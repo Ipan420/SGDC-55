@@ -9,7 +9,7 @@ let handler = async(m, { conn, text }) => {
 
 ${res.data.result.artimimpi}
 
-*SGDC-BOT*
+*IP-BOT*
 `.trim()
 conn.reply(m.chat, hasil, m)
 	 })
