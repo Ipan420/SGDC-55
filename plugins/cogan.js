@@ -7,7 +7,7 @@ let handler = async(m, { conn, text }) => {
     let cowo = items[Math.floor(Math.random() * items.length)];
     let url = "https://api.fdci.se/rep.php?gambar=" + cowo;
     let str = `
- *SGDC-BOT*
+ *IP-BOT*
 `.trim()
     
     axios.get(url)
