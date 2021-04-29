@@ -1,5 +1,5 @@
 let handler  = async (m, { conn }) => {
-  conn.reply(m.chat,`${pickRandom(global.bacot)}\n\n*[ • SGDC-BOT • ]*`, m)
+  conn.reply(m.chat,`${pickRandom(global.bacot)}\n\n*[ • IP-BOT • ]*`, m)
 }
 
 handler.command = /^(bacot|bacotan)$/i
