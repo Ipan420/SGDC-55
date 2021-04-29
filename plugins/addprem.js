@@ -9,7 +9,7 @@ let who
   let up = global.prems.push(user)
   fs.writeFileSync('./config.js',JSON.stringify(up))
   let prem = `
-*╭═══[ • SGDC-BOT • ]═══╮*
+*╭═══[ • IP-BOT • ]═══╮*
 
 _Berhasil Add User Premium_
 _~> Nomor: wa.me/${who.split("@s.whatsapp.net")[0]}_
