@@ -52,7 +52,7 @@ let handler  = async (m, { conn, args, usedPrefix: _p }) => {
 *━━━━━━━━━━━━━━━━━━━━*
 _Hai,Kak @${mmk.split("@")[0]}_
 
-*☞Owner:Ipan Gans:v*
+*☬ᴍʏ ᴏᴡɴᴇʀ ɪᴘᴀɴ ɢᴀɴs:ᴠ☬*
 *☞Wa.me/6282286818715*
 *╭══════════════════╮*
 
