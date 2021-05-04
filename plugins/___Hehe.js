@@ -7,7 +7,7 @@ let kn = s1[Math.floor(Math.random() * s1.length)]
 let kw = s2[Math.floor(Math.random() * s2.length)]
 
 let kntll = `
-Ciee @${kn.split("@")[0]} Sama @${kw.split("@")[0]} Baru Jadian Woyy !! Pj pj woiii:v
+_Ciee @${kn.split("@")[0]} Sama @${kw.split("@")[0]} Baru Jadian Woyy !! Pj pj woiii:v_
 `.trim()
     
     conn.reply(m.chat, kntll, m, { 
