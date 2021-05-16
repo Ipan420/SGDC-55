@@ -385,7 +385,7 @@ ${readMore}
         }
     })
    }*/
-    conn.fakeReply(m.chat, `GUNAKAN BOT SEPERLUNYA, Ketik *${_p}OK!*`, '0@s.whatsapp.net', '*IPAN IP-BOT || SUPPORT ME WITH DONATE*')
+    conn.fakeReply(m.chat, `*GUNAKAN BOT SEPERLUNYA*,*${_p}OK!*`, '0@s.whatsapp.net', '*IPAN IP-BOT || SUPPORT ME WITH DONATE*')
   } catch (e) {
     conn.fakeReply(m.chat, '_TERJADI KESALAHAN PADA SAAT MEMUAT MENU!_', '0@s.whatsapp.net', '*MENU ERROR! SEGERA LAPORKAN KE OWNER!*')
     //throw e
