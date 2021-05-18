@@ -6,7 +6,7 @@ let api = (kntl.xteam)
    let chat = global.DATABASE.data.chats[m.chat]
    if (chat.nsfw) { 
    await m.reply(global.wait)
-   let link = 'https://i.pinimg.com/736x/40/08/54/400854818e410458f27950aa7291873f.jpg' + api;
+   let link = 'https://api.xteam.xyz/anime/waifu?APIKEY=9c0fb74ad8c539e3' + api;
    conn.sendFile(m.chat, link, 'SGDC-BOT.png', 'Mending lu tobat dah :v\n\n*SGDC-BOT*', m)
     } else {
        m.reply('```Perlu Mengaktifkan Mode NSFW```')
