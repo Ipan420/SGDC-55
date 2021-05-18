@@ -5,7 +5,7 @@ let chat = global.DATABASE.data.chats[m.chat]
     if (chat.nsfw) { 
     let api = (kntl.lolkey)
   	await m.reply(global.wait)
-      let link = 'http://lolhuman.herokuapp.com/api/random/waifu?apikey=' + api;
+      let link = 'https://api.xteam.xyz/anime/waifu?APIKEY=9c0fb74ad8c539e3' + api;
       conn.sendFile(m.chat, link, 'SGDC-BOT.png', 'No Colay:v\n\n*SGDC-BOT*', m)
     } else {
        m.reply('```Perlu Mengaktifkan Mode NSFW```')
